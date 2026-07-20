@@ -4,7 +4,11 @@ def add_book(books):
     book = {
             "title": title,
             "author": author,
-            "status": "reading",
+            "status": "unread",
         }
     books.append(book)
     print("Книга додана до списку")
+
+books = []
+add_book(books)
+print(books)
